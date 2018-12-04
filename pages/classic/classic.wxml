@@ -1,0 +1,1 @@
+<v-like count="{{10}}" is-like="{{true}}"></v-like>
