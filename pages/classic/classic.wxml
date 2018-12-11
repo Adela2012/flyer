@@ -1,1 +1,7 @@
 <v-like count="{{10}}" is-like="{{true}}"></v-like>
+<view class='container'>
+  <v-movie img="{{classic.image}}" content="{{classic.content}}"/>
+  <!-- <v-music />
+  <v-essay /> -->
+  <v-navi />
+</view>

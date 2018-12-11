@@ -24,7 +24,7 @@ export class HTTP {
       },
       success: (res) => {
         const code = res.statusCode.toString()
-        if (code.startWith('2')) {
+        if (code.startsWith('2')) {
           resolve(res.data)
         } else {
           reject()
